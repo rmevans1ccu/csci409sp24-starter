@@ -1,0 +1,6 @@
+.idea/
+__pycache__/
+.pytest_cache/
+fastapi-practice.db
+*.db
+files/*.jpg

@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "csci409sp24"
+version = "0.1.0"
+description = ""
+authors = ["Robert Evans <robertevans@robertevansmb.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["full"], version = "^0.95.1"}
+uvicorn = "^0.21.1"
+pytest = "^7.3.1"
+pytest-html = "^3.2.0"
+httpx = "^0.24.0"
+sqlalchemy = "^2.0.9"
+mysqlclient = "^2.1.1"
+passlib = "^1.7.4"
+bcrypt = "^4.0.1"
+python-multipart = "^0.0.6"
+python-jose = "^3.3.0"
+aiofiles = "^23.1.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
